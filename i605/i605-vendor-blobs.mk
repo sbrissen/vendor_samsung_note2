@@ -30,9 +30,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/efsks:system/bin/efsks \
     $(LOCAL_PATH)/proprietary/system/bin/qmuxd:system/bin/qmuxd \
     $(LOCAL_PATH)/proprietary/system/bin/qmiproxy:system/bin/qmiproxy \
-	$(LOCAL_PATH)/proprietary/system/bin/LE_dut:system/bin/LE_dut \
-	$(LOCAL_PATH)/proprietary/system/bin/at_distributor:system/bin/at_distributor \
-	$(LOCAL_PATH)/proprietary/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    $(LOCAL_PATH)/proprietary/system/bin/LE_dut:system/bin/LE_dut \
+    $(LOCAL_PATH)/proprietary/system/bin/at_distributor:system/bin/at_distributor \
+    $(LOCAL_PATH)/proprietary/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
     $(LOCAL_PATH)/proprietary/system/bin/sensorhubservice:system/bin/sensorhubservice
 
 PRODUCT_COPY_FILES += \
