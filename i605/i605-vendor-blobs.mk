@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/bin/icd:system/bin/icd \
     $(LOCAL_PATH)/proprietary/system/bin/sec-ril:system/bin/sec-ril \
-    $(LOCAL_PATH)/proprietary/system/bin/sensorservice:system/bin/sensorservice \
     $(LOCAL_PATH)/proprietary/system/bin/netmgrd:system/bin/netmgrd \
     $(LOCAL_PATH)/proprietary/system/bin/qcks:system/bin/qcks \
     $(LOCAL_PATH)/proprietary/system/bin/ks:system/bin/ks \
@@ -36,7 +35,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/sensorhubservice:system/bin/sensorhubservice
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -77,7 +75,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libgps.so:system/lib/libgps.so \
     $(LOCAL_PATH)/proprietary/system/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(LOCAL_PATH)/proprietary/system/lib/liblvvetx.so:system/lib/liblvvetx.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libsensorservice.so:system/lib/libsensorservice.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libatparser.so:system/lib/libatparser.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so
 
 PRODUCT_COPY_FILES += \
